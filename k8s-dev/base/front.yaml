@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: react-app
-          image: zombinator/blog-front:1.1
+          image: zombinator/blog-front:1.2
           imagePullPolicy: Always
           ports:
             - containerPort: 5173

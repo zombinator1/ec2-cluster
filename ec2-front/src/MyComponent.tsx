@@ -6,10 +6,8 @@ const MyComponent: React.FC = () => {
   
 
   const fetchData = async () => {
-    const apiUrl = process.env.BACKEND_SVC_SERVICE_HOST;
-    console.log(apiUrl);
     try {
-      const response = await fetch('http://mmk:8080/hello');
+      const response = await fetch('http://backend-svc:8090/hello');
       if (!response.ok) {
         throw new Error('Network response was not ok');
       }
