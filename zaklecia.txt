@@ -1,0 +1,8 @@
+ssh -i /home/bartek/AProgramowanie/EC2/aws.pem bzabekk@ec2-16-171-133-24.eu-north-1.compute.amazonaws.com
+
+ssh -i /home/bartek/AProgramowanie/EC2/aws.pem bzabekk@instance-IPv6-address
+
+sudo ssh -i /home/bartek/AProgramowanie/EC2/aws.pem bzabekk@16.171.133.24
+
+jar cf helloworld.jar .
+

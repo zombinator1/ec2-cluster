@@ -1,0 +1,1 @@
+kubectl exec -it backend-deployment-777bbb78dc-t29fd -c blog-backend -- bash

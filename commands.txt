@@ -1,0 +1,7 @@
+ minikube start
+
+
+
+kubectl port-forward front-b7b5b4b74-svr5z 5173:5173
+
+cdc
